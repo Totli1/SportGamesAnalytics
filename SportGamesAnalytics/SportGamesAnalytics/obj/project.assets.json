@@ -981,11 +981,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\Documents\\SportGamesAnalytics\\SportGamesAnalytics\\SportGamesAnalytics.csproj",
+      "projectUniqueName": "C:\\Users\\user\\Documents\\GitHub\\SportGamesAnalytics\\SportGamesAnalytics\\SportGamesAnalytics\\SportGamesAnalytics.csproj",
       "projectName": "SportGamesAnalytics",
-      "projectPath": "C:\\Users\\user\\Documents\\SportGamesAnalytics\\SportGamesAnalytics\\SportGamesAnalytics.csproj",
+      "projectPath": "C:\\Users\\user\\Documents\\GitHub\\SportGamesAnalytics\\SportGamesAnalytics\\SportGamesAnalytics\\SportGamesAnalytics.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\Documents\\SportGamesAnalytics\\SportGamesAnalytics\\obj\\",
+      "outputPath": "C:\\Users\\user\\Documents\\GitHub\\SportGamesAnalytics\\SportGamesAnalytics\\SportGamesAnalytics\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\user\Documents\SportGamesAnalytics\SportGamesAnalytics\obj\Debug\net8.0-windows\
+C:\Users\user\Documents\GitHub\SportGamesAnalytics\SportGamesAnalytics\SportGamesAnalytics\obj\Debug\net8.0-windows\
 SportGamesAnalytics
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
-C:\Users\user\Documents\SportGamesAnalytics\SportGamesAnalytics\App.xaml
+C:\Users\user\Documents\GitHub\SportGamesAnalytics\SportGamesAnalytics\SportGamesAnalytics\App.xaml
 3600193089
 
 71028301392
 218-2879980
 ComboboxCustom.xaml;MainWindow.xaml;Result.xaml;
 
-True
+False
 

@@ -12,6 +12,7 @@
     <None Remove="Component 11.png" />
     <None Remove="Component 9.png" />
     <None Remove="Sports Games Analytics.png" />
+    <None Remove="sport_p3l8r98pnbj4-2.ico" />
   </ItemGroup>
 
   <ItemGroup>
@@ -24,6 +25,7 @@
     <Resource Include="Component 11.png" />
     <Resource Include="Component 9.png" />
     <Resource Include="Sports Games Analytics.png" />
+    <Resource Include="sport_p3l8r98pnbj4-2.ico" />
   </ItemGroup>
 
 </Project>

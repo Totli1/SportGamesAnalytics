@@ -12,7 +12,7 @@ WindowStyle="None"
 ResizeMode="NoResize"
 Background="Transparent"
 AllowsTransparency="True"
-        Loaded="Window_Loaded">
+        Loaded="Window_Loaded" Icon="/sport_p3l8r98pnbj4-2.ico">
     <Border Background="Transparent"
          Name="dropBorder"
         MouseLeftButtonDown="dropBorder_MouseLeftButtonDown"

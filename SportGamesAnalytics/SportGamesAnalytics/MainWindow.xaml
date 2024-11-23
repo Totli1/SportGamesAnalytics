@@ -13,7 +13,7 @@ ResizeMode="NoResize"
 Background="Transparent"
 AllowsTransparency="True"
         Loaded="Window_Loaded">
-    <Border Background="#CACBCD"
+    <Border Background="Transparent"
          Name="dropBorder"
         MouseLeftButtonDown="dropBorder_MouseLeftButtonDown"
          CornerRadius="20">
@@ -24,43 +24,58 @@ AllowsTransparency="True"
 
             </Grid.RowDefinitions>
 
-            <Rectangle HorizontalAlignment="Left" Height="484" Margin="246,5,0,0" Grid.Row="1" Stroke="Black" VerticalAlignment="Top" Width="457">
+
+            <Rectangle HorizontalAlignment="Left" Height="551" Margin="207,0,0,20" VerticalAlignment="Bottom" Width="541" Grid.RowSpan="2">
 
                 <Rectangle.Resources>
-                    <Style TargetType="Border">
+                    <Style TargetType="{x:Type Border}">
                         <Setter Property="CornerRadius" Value="50"/>
                     </Style>
                 </Rectangle.Resources>
+                <Rectangle.Fill>
+                    <ImageBrush ImageSource="/Component 11.png"/>
+                </Rectangle.Fill>
             </Rectangle>
 
 
 
 
-            <DatePicker Background="#A9BCEA" x:Name="date_games" HorizontalAlignment="Left" Margin="287,152,0,0" Grid.Row="1" VerticalAlignment="Top" Width="173">
+            <GroupBox Background="#171031" Margin="501,73,220,384" Grid.RowSpan="2" BorderBrush="{x:Null}">
+                <GroupBox.Resources>
+                    <Style TargetType="{x:Type Border}">
+                        <Setter Property="CornerRadius" Value="8"/>
+                    </Style>
+                </GroupBox.Resources>
+            </GroupBox>
+
+
+
+
+            <DatePicker Background="#A9BCEA" x:Name="date_games" HorizontalAlignment="Left" Margin="269,148,0,0" Grid.Row="1" VerticalAlignment="Top" Width="173" FontFamily="Impact" FontSize="14">
                 <DatePicker.Resources>
                     <Style TargetType="{x:Type Border}">
                         <Setter Property="CornerRadius" Value="5"/>
                     </Style>
                 </DatePicker.Resources>
             </DatePicker>
-            <DatePicker Background="#A9BCEA" x:Name="date_session" HorizontalAlignment="Left" Margin="287,201,0,0" Grid.Row="1" VerticalAlignment="Top" SelectedDateFormat="Short" Width="173">
+            <DatePicker Background="#A9BCEA" x:Name="date_session" HorizontalAlignment="Left" Margin="269,202,0,0" Grid.Row="1" VerticalAlignment="Top" SelectedDateFormat="Short" Width="173" FontFamily="Impact" FontSize="14">
                 <DatePicker.Resources>
                     <Style TargetType="{x:Type Border}">
                         <Setter Property="CornerRadius" Value="5"/>
                     </Style>
                 </DatePicker.Resources>
             </DatePicker>
-            <Button x:Name="start" Content="Анализировать" HorizontalAlignment="Center" Margin="0,244,0,0" Grid.Row="1" VerticalAlignment="Top" Width="100" Height="28" Click="Button_Click">
+            <Button x:Name="start" Content="ПРОАНАЛИЗИРОВАТЬ" HorizontalAlignment="Left" Margin="396,242,0,0" Grid.Row="1" VerticalAlignment="Top" Width="164" Height="28" Click="Button_Click" FontFamily="Impact" Background="#FF2A29EF" Foreground="White" BorderBrush="#FF0E0D96" FontSize="16">
                 <Button.Resources>
                     <Style TargetType="{x:Type Border}">
                         <Setter Property="CornerRadius" Value="5"/>
                     </Style>
                 </Button.Resources>
             </Button>
-            <ComboBox x:Name="name_sports" HorizontalAlignment="Left" Margin="287,32,0,0" Grid.Row="1" VerticalAlignment="Top" Width="173"/>
+            <ComboBox x:Name="name_sports" HorizontalAlignment="Left" Margin="269,33,0,0" Grid.Row="1" VerticalAlignment="Top" Width="173" FontFamily="Impact" FontSize="14"/>
             <Canvas Margin="0,0,856,37"/>
-            <ComboBox x:Name="name_theme" HorizontalAlignment="Left" Margin="287,91,0,0" Grid.Row="1" VerticalAlignment="Top" Width="173"/>
-            <TextBox x:Name="tect_output" HorizontalAlignment="Left" Margin="359,289,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="211" IsEnabled="False" Height="108"/>
+            <ComboBox x:Name="name_theme" HorizontalAlignment="Left" Margin="269,92,0,0" Grid.Row="1" VerticalAlignment="Top" Width="173" FontFamily="Impact" FontSize="14"/>
+            <TextBox  VerticalScrollBarVisibility="Auto" x:Name="tect_output" HorizontalAlignment="Left" Margin="269,281,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="409" IsEnabled="True" Height="188" UndoLimit="200" FontFamily="Impact" Background="#FF171031" Foreground="White" FontSize="16"/>
             <Path x:Name="neutral_emoji_sports"  Fill="White" Margin="588,32,307,469" Grid.Row="1" Stretch="Fill">
                 <Path.Data>
                     <PathGeometry Figures="m12 0c-6.62 0-12 5.38-12 12s5.38 12 12 12 12-5.38 12-12-5.38-12-12-12zm-7 9.07c0-1.11.9-2 2-2s2 .89 2 2c0 1.1-.9 2-2 2s-2-.9-2-2zm10.25 9.18h-6.5c-.552 0-1-.448-1-1s.448-1 1-1h6.5c.552 0 1 .448 1 1s-.448 1-1 1zm1.75-7.18c-1.1 0-2-.9-2-2 0-1.11.9-2 2-2s2 .89 2 2c0 1.1-.9 2-2 2z"/>
@@ -121,10 +136,23 @@ AllowsTransparency="True"
             <Rectangle MouseDown="joy_emoji_sports_MouseDown"  HorizontalAlignment="Left" Height="24" Margin="625,33,0,0" Fill="Transparent" VerticalAlignment="Top" Width="24" Grid.Row="1"/>
             <Rectangle MouseDown="very_joy_emoji_theme_MouseDown"  HorizontalAlignment="Left" Height="26" Margin="666,91,0,0" Fill="Transparent" VerticalAlignment="Top" Width="25" Grid.Row="1"/>
             <Rectangle MouseDown="very_joy_emoji_sports_MouseDown"  HorizontalAlignment="Left" Height="24" Margin="666,33,0,0" Fill="Transparent" VerticalAlignment="Top" Width="25" Grid.Row="1"/>
-            <Label  Content="ВЫБЕРИТЕ ИГРУ:" Margin="287,7,519,493" Grid.Row="1"/>
-            <Label  Content="ДАТА МАТЧА:" Margin="287,127,497,373" Grid.Row="1"/>
-            <Label  Content="ВЫБЕРИТЕ СЕССИЮ:" Margin="287,66,497,434" Grid.Row="1"/>
-            <Label  Content="ДАТА СЕССИИ:" Margin="287,176,497,324" Grid.Row="1"/>
+            <Label  Content="ВЫБЕРИТЕ ИГРУ:" Margin="269,8,537,492" Grid.Row="1" FontFamily="Impact" FontSize="14"/>
+            <Label  Content="ДАТА МАТЧА:" Margin="269,123,515,377" Grid.Row="1" FontFamily="Impact" FontSize="14"/>
+            <Label  Content="ВЫБЕРИТЕ СЕССИЮ:" Margin="269,67,515,433" Grid.Row="1" FontFamily="Impact" FontSize="14"/>
+            <Label  Content="ДАТА СЕССИИ:" Margin="269,177,515,323" Grid.Row="1" FontFamily="Impact" FontSize="14"/>
+            <Label Content="ОЦЕНИТЕ СЛОЖНОСТЬ ИГРЫ:" HorizontalAlignment="Left" Margin="527,3,0,0" Grid.Row="1" VerticalAlignment="Top" Background="{x:Null}" Foreground="White" FontFamily="Impact"/>
+            <Label Content="ОЦЕНИТЕ СЛОЖНОСТЬ СЕССИИ:" HorizontalAlignment="Left" Margin="522,62,0,0" Grid.Row="1" VerticalAlignment="Top" Foreground="White" FontFamily="Impact"/>
+            <Rectangle HorizontalAlignment="Left" Height="66" Margin="539,155,0,0" Grid.Row="1" VerticalAlignment="Top" Width="123">
+                <Rectangle.Fill>
+                    <ImageBrush ImageSource="/Component 9.png"/>
+                </Rectangle.Fill>
+            </Rectangle>
+            <Rectangle HorizontalAlignment="Left" Height="26" Margin="338,42,0,0" VerticalAlignment="Top" Width="272">
+                <Rectangle.Fill>
+                    <ImageBrush ImageSource="/Sports Games Analytics.png"/>
+                </Rectangle.Fill>
+            </Rectangle>
+            <Button Content="X" HorizontalAlignment="Left" Margin="697,45,0,0" VerticalAlignment="Top" Width="28" Background="#FF2A29EF" BorderBrush="{x:Null}" Foreground="White" FontFamily="Impact" Click="Button_Click_1"/>
 
 
         </Grid>

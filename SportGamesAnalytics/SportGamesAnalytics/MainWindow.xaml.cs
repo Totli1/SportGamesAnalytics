@@ -42,57 +42,62 @@ namespace SportGamesAnalytics
      .AddJsonFile("appsettings.json")
      .Build();
             string connString = configuration.GetConnectionString("DefaultConnection");
-            using (var conn = new NpgsqlConnection(connString))
+            try
             {
-                Console.Out.WriteLine("Opening connection");
-                conn.Open();
-                using (var command = new NpgsqlCommand("SELECT name_sports FROM politech.data", conn))
-                using (var reader = command.ExecuteReader())
+                using (var conn = new NpgsqlConnection(connString))
                 {
+                    Console.Out.WriteLine("Opening connection");
+                    conn.Open();
+                    using (var command = new NpgsqlCommand("SELECT name_sports FROM politech.data", conn))
+                    using (var reader = command.ExecuteReader())
+                    {
                         using (StreamWriter writer = new StreamWriter($"{Environment.CurrentDirectory}\\name_sports.txt", false))
                         {
-                    while (reader.Read())
-                    {
-                             writer.WriteLine(reader.GetString(0));
-                    }
+                            while (reader.Read())
+                            {
+                                writer.WriteLine(reader.GetString(0));
+                            }
                         }
-                }
-                using (var command = new NpgsqlCommand("SELECT complexity_sports FROM politech.data", conn))
-                using (var reader = command.ExecuteReader())
-                {
-                    using (StreamWriter writer = new StreamWriter($"{Environment.CurrentDirectory}\\complexity_sports.txt", false))
+                    }
+                    using (var command = new NpgsqlCommand("SELECT complexity_sports FROM politech.data", conn))
+                    using (var reader = command.ExecuteReader())
                     {
-                        while (reader.Read())
+                        using (StreamWriter writer = new StreamWriter($"{Environment.CurrentDirectory}\\complexity_sports.txt", false))
                         {
-                            writer.WriteLine(reader.GetInt32(0));
+                            while (reader.Read())
+                            {
+                                writer.WriteLine(reader.GetInt32(0));
+                            }
                         }
                     }
-                }
-                using (var command = new NpgsqlCommand("SELECT name_theme FROM politech.data", conn))
-                using (var reader = command.ExecuteReader())
-                {
-                    using (StreamWriter writer = new StreamWriter($"{Environment.CurrentDirectory}\\name_theme.txt", false))
+                    using (var command = new NpgsqlCommand("SELECT name_theme FROM politech.data", conn))
+                    using (var reader = command.ExecuteReader())
                     {
-                        while (reader.Read())
+                        using (StreamWriter writer = new StreamWriter($"{Environment.CurrentDirectory}\\name_theme.txt", false))
                         {
-                            writer.WriteLine(reader.GetString(0));
+                            while (reader.Read())
+                            {
+                                writer.WriteLine(reader.GetString(0));
+                            }
                         }
                     }
-                }
-                using (var command = new NpgsqlCommand("SELECT complexity_theme FROM politech.data", conn))
-                using (var reader = command.ExecuteReader())
-                {
-                    using (StreamWriter writer = new StreamWriter($"{Environment.CurrentDirectory}\\complexity_theme.txt", false))
+                    using (var command = new NpgsqlCommand("SELECT complexity_theme FROM politech.data", conn))
+                    using (var reader = command.ExecuteReader())
                     {
-                        while (reader.Read())
+                        using (StreamWriter writer = new StreamWriter($"{Environment.CurrentDirectory}\\complexity_theme.txt", false))
                         {
-                            writer.WriteLine(reader.GetInt32(0));
+                            while (reader.Read())
+                            {
+                                writer.WriteLine(reader.GetInt32(0));
+                            }
                         }
                     }
                 }
+            }
+            catch { }
                 name_sports.ItemsSource = (File.ReadAllLines($"{Environment.CurrentDirectory}\\name_sports.txt", Encoding.Default));
                 name_theme.ItemsSource= (File.ReadAllLines($"{Environment.CurrentDirectory}\\name_theme.txt", Encoding.Default));
-            }
+            
         }
         private void dropBorder_MouseLeftButtonDown(object sender, MouseButtonEventArgs e) => DragMove();
 
@@ -106,6 +111,11 @@ namespace SportGamesAnalytics
         int dific = 0;
         private void Button_Click(object sender, RoutedEventArgs e)
         {
+            if(date_games.SelectedDate==null||date_session.SelectedDate==null||dific_theme==0||dific_sports==0)
+            {
+                MessageBox.Show("Выберите дату и выберите сложность");
+                return;
+            }
            dific= dific_sports + dific_theme;
 
             if (dific<=5)
@@ -120,7 +130,7 @@ namespace SportGamesAnalytics
             {
                 dific_string = "высокая";
             }
-            text_output = $"Проанализировав данные, учитовая, что нагрузка по вашему виду спорту для вас {com_spo}, а нагрузка по придмету вашему {com_the}, учитывая, что от сессии вас отделяет {(date_session.SelectedDate - date_games.SelectedDate).Value.Days} дней, из-за всёго этого вероятность неудачи студентов из-за усталости {dific_string}";
+            text_output = $"Проанализировав данные, учитовая, что нагрузка по вашему виду спорту для вас {com_spo}, а нагрузка по предмету вашему {com_the}, учитывая, что от сессии вас отделяет {(date_session.SelectedDate - date_games.SelectedDate).Value.Days} дней, из-за всёго этого вероятность неудачи студентов из-за усталости {dific_string}";
 
             if((date_session.SelectedDate - date_games.SelectedDate).Value.Days<0)
             {
@@ -248,5 +258,10 @@ namespace SportGamesAnalytics
         }
 
         #endregion
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            Close();
+        }
     }
 }

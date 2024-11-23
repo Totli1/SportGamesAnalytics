@@ -7,12 +7,16 @@
       "RelativeMoniker": "D:0:0:{B47AA3FE-0EC9-4BB2-81B1-706A25A2E056}|SportGamesAnalytics\\SportGamesAnalytics.csproj|solutionrelative:sportgamesanalytics\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{B47AA3FE-0EC9-4BB2-81B1-706A25A2E056}|SportGamesAnalytics\\SportGamesAnalytics.csproj|c:\\users\\user\\documents\\sportgamesanalytics\\sportgamesanalytics\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B47AA3FE-0EC9-4BB2-81B1-706A25A2E056}|SportGamesAnalytics\\SportGamesAnalytics.csproj|solutionrelative:sportgamesanalytics\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B47AA3FE-0EC9-4BB2-81B1-706A25A2E056}|SportGamesAnalytics\\SportGamesAnalytics.csproj|c:\\users\\user\\documents\\sportgamesanalytics\\sportgamesanalytics\\comboboxcustom.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{B47AA3FE-0EC9-4BB2-81B1-706A25A2E056}|SportGamesAnalytics\\SportGamesAnalytics.csproj|solutionrelative:sportgamesanalytics\\comboboxcustom.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B47AA3FE-0EC9-4BB2-81B1-706A25A2E056}|SportGamesAnalytics\\SportGamesAnalytics.csproj|c:\\users\\user\\documents\\sportgamesanalytics\\sportgamesanalytics\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B47AA3FE-0EC9-4BB2-81B1-706A25A2E056}|SportGamesAnalytics\\SportGamesAnalytics.csproj|solutionrelative:sportgamesanalytics\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B47AA3FE-0EC9-4BB2-81B1-706A25A2E056}|SportGamesAnalytics\\SportGamesAnalytics.csproj|c:\\users\\user\\documents\\sportgamesanalytics\\sportgamesanalytics\\component 11.svg||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{B47AA3FE-0EC9-4BB2-81B1-706A25A2E056}|SportGamesAnalytics\\SportGamesAnalytics.csproj|solutionrelative:sportgamesanalytics\\component 11.svg||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B47AA3FE-0EC9-4BB2-81B1-706A25A2E056}|SportGamesAnalytics\\SportGamesAnalytics.csproj|c:\\users\\user\\documents\\sportgamesanalytics\\sportgamesanalytics\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -34,23 +38,50 @@
       "DocumentGroups": [
         {
           "DockedHeight": 551,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Component 11.svg",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\SportGamesAnalytics\\SportGamesAnalytics\\Component 11.svg",
+              "RelativeDocumentMoniker": "SportGamesAnalytics\\Component 11.svg",
+              "ToolTip": "C:\\Users\\user\\Documents\\SportGamesAnalytics\\SportGamesAnalytics\\Component 11.svg",
+              "RelativeToolTip": "SportGamesAnalytics\\Component 11.svg",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAQKSURBVDhPrVRbTCNVGP5OOzO9TKEWSrGUttpdpV2ua7ioaDa7ullcdVe8rHFNjPFBY4hGY0wIJprw5ItmCdEXL/FRE4MQsw9LiCthIcFFxA3hFiEsLQUKpaW03XZmOuOZaQsY9W2/5J/zz3/55j///OfgrkJRFFJQD9DX13elrq7uXVWnfk2KugpZlpHJZJBKpYa6u7u7gsFgWHP8HyjhHE2Sc7ncf4okSfLMzIw8NTUl9/f3/xgIBGoKqRr0hfUAHR0dXW1tbXaZFiQJccjpWyDJbyBsfQ9x46oW81dIRHNLG0wmk4/juOr19fVbUQrV9w9CrvVl4m9s7VpIG\u002BxL6\u002BMolb6EaesrSOFhgNRAVtyQIhMIbgPeB1ths9kYs9l8vKyszD0/P39jnyJPSAj4hy7YPE\u002B/\u002BUmJ0/NkS4DlzlRegXXzGmZWmvBT4j0sGy6jvvE85O05JEUeN6ZXMT09jUQioafEgdHR0R/i8XiYUfmMdees3ovvfPhEc/VbL9Qvm5vljxBdTGM81YMl33MICiZMLG8iJa7iRUct/I3HUA0HBEGAxWLB7OysVpcKnfpwdLzd3haoePVS7WRpS/oDsjeTwTrpRbqiE2wK4EUJnvuqcHM7h7HY/SAlHtjt5XA6nbBardDr9QdToBF6nZbOZ/1z5Q3i52RnSoS54TvUP9yJSyedeKXBjuTGNmycAYQ3YSrKYiejpVFQkiOjpULb8omK\u002BOOPWL81JVeM\u002BEL8GKFfWYjSn/Qn0GDQucsxKGd0YDkWK9tZxPYFVJUaVS7a/8MZVcFUORnu9YZr1ezaMrmu\u002B1ThW84Sn0IrKATlSRWIdwTaMxFZSYKk2jS36skTFkmZ0ILnYmzlZ8Nk8g1lzn0u99vEor6p0kwUeiLUIJVQTSR0MF202ka3BQ4Lp9nydHnCIhglEX5p67Yrez13GmJKYXgTq2v32clJFw\u002BrkUEiI2JyNYa1WFrNhNtmhoXaDzkOyVQwmVCmPZYy/DK\u002ByZzwMHFvpc9FhjfSGF7agkK3yHAMcpZyxHJm7EZ28ZSOgKVShFb/kQp10h4xne/JXg5v7ny2OLcSvb2xrwh8CeicgBx/AFmXFxF6h0QiUfiMEp6pqwSnL/7lf0Pf8xocp\u002B6N\u002BW6OL4x5nayYjIv\u002BRFLmQ5E9RHfiuBPdBbu/h9p7GLx/\u002BhjKeNo/erK02mhlhOpra2sYHBz8mp6asJ7O62R4E2cC3NYpV2Rs1lndaD776GN\u002BB5tDjZVBaxWPC7UOPN9UBSOrTVl\u002Bn4VdE52OEgYxNDSkEeatR9Db2zumXl\u002BiKBZEkEUhL/SoFSR7sKoxIyMjstvtblHzC588BG3w7wMDA\u002B0FXRP1Ui02vmgrigpa2R902dVe7i6AvwHcTSP/8z9AyQAAAABJRU5ErkJggg==",
+              "WhenOpened": "2024-11-23T13:40:33.844Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\SportGamesAnalytics\\SportGamesAnalytics\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "SportGamesAnalytics\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\SportGamesAnalytics\\SportGamesAnalytics\\MainWindow.xaml.cs",
+              "RelativeToolTip": "SportGamesAnalytics\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAHQAAAAAAAAAAAAswIQAAACFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T06:50:52.546Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\SportGamesAnalytics\\SportGamesAnalytics\\MainWindow.xaml",
               "RelativeDocumentMoniker": "SportGamesAnalytics\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\user\\Documents\\SportGamesAnalytics\\SportGamesAnalytics\\MainWindow.xaml*",
-              "RelativeToolTip": "SportGamesAnalytics\\MainWindow.xaml*",
+              "ToolTip": "C:\\Users\\user\\Documents\\SportGamesAnalytics\\SportGamesAnalytics\\MainWindow.xaml",
+              "RelativeToolTip": "SportGamesAnalytics\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-11-23T06:50:52.543Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ComboboxCustom.xaml",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\SportGamesAnalytics\\SportGamesAnalytics\\ComboboxCustom.xaml",
               "RelativeDocumentMoniker": "SportGamesAnalytics\\ComboboxCustom.xaml",
@@ -62,7 +93,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\SportGamesAnalytics\\SportGamesAnalytics\\bin\\Debug\\net8.0-windows\\appsettings.json",
               "RelativeDocumentMoniker": "SportGamesAnalytics\\bin\\Debug\\net8.0-windows\\appsettings.json",
@@ -70,25 +101,11 @@
               "RelativeToolTip": "SportGamesAnalytics\\bin\\Debug\\net8.0-windows\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAACVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-23T06:50:52.535Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-23T06:50:52.535Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\SportGamesAnalytics\\SportGamesAnalytics\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "SportGamesAnalytics\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\SportGamesAnalytics\\SportGamesAnalytics\\MainWindow.xaml.cs*",
-              "RelativeToolTip": "SportGamesAnalytics\\MainWindow.xaml.cs*",
-              "ViewState": "AgIAAFcAAAAAAAAAAAAgwIoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-23T06:50:52.546Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\SportGamesAnalytics\\SportGamesAnalytics\\App.xaml",
               "RelativeDocumentMoniker": "SportGamesAnalytics\\App.xaml",
@@ -100,7 +117,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "sad_emotion.svg",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\SportGamesAnalytics\\SportGamesAnalytics\\sad_emotion.svg",
               "RelativeDocumentMoniker": "SportGamesAnalytics\\sad_emotion.svg",
@@ -108,8 +125,7 @@
               "RelativeToolTip": "SportGamesAnalytics\\sad_emotion.svg",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAACmBQAAAAAAAA==",
               "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAQKSURBVDhPrVRbTCNVGP5OOzO9TKEWSrGUttpdpV2ua7ioaDa7ullcdVe8rHFNjPFBY4hGY0wIJprw5ItmCdEXL/FRE4MQsw9LiCthIcFFxA3hFiEsLQUKpaW03XZmOuOZaQsY9W2/5J/zz3/55j///OfgrkJRFFJQD9DX13elrq7uXVWnfk2KugpZlpHJZJBKpYa6u7u7gsFgWHP8HyjhHE2Sc7ncf4okSfLMzIw8NTUl9/f3/xgIBGoKqRr0hfUAHR0dXW1tbXaZFiQJccjpWyDJbyBsfQ9x46oW81dIRHNLG0wmk4/juOr19fVbUQrV9w9CrvVl4m9s7VpIG\u002BxL6\u002BMolb6EaesrSOFhgNRAVtyQIhMIbgPeB1ths9kYs9l8vKyszD0/P39jnyJPSAj4hy7YPE\u002B/\u002BUmJ0/NkS4DlzlRegXXzGmZWmvBT4j0sGy6jvvE85O05JEUeN6ZXMT09jUQioafEgdHR0R/i8XiYUfmMdees3ovvfPhEc/VbL9Qvm5vljxBdTGM81YMl33MICiZMLG8iJa7iRUct/I3HUA0HBEGAxWLB7OysVpcKnfpwdLzd3haoePVS7WRpS/oDsjeTwTrpRbqiE2wK4EUJnvuqcHM7h7HY/SAlHtjt5XA6nbBardDr9QdToBF6nZbOZ/1z5Q3i52RnSoS54TvUP9yJSyedeKXBjuTGNmycAYQ3YSrKYiejpVFQkiOjpULb8omK\u002BOOPWL81JVeM\u002BEL8GKFfWYjSn/Qn0GDQucsxKGd0YDkWK9tZxPYFVJUaVS7a/8MZVcFUORnu9YZr1ezaMrmu\u002B1ThW84Sn0IrKATlSRWIdwTaMxFZSYKk2jS36skTFkmZ0ILnYmzlZ8Nk8g1lzn0u99vEor6p0kwUeiLUIJVQTSR0MF202ka3BQ4Lp9nydHnCIhglEX5p67Yrez13GmJKYXgTq2v32clJFw\u002BrkUEiI2JyNYa1WFrNhNtmhoXaDzkOyVQwmVCmPZYy/DK\u002ByZzwMHFvpc9FhjfSGF7agkK3yHAMcpZyxHJm7EZ28ZSOgKVShFb/kQp10h4xne/JXg5v7ny2OLcSvb2xrwh8CeicgBx/AFmXFxF6h0QiUfiMEp6pqwSnL/7lf0Pf8xocp\u002B6N\u002BW6OL4x5nayYjIv\u002BRFLmQ5E9RHfiuBPdBbu/h9p7GLx/\u002BhjKeNo/erK02mhlhOpra2sYHBz8mp6asJ7O62R4E2cC3NYpV2Rs1lndaD776GN\u002BB5tDjZVBaxWPC7UOPN9UBSOrTVl\u002Bn4VdE52OEgYxNDSkEeatR9Db2zumXl\u002BiKBZEkEUhL/SoFSR7sKoxIyMjstvtblHzC588BG3w7wMDA\u002B0FXRP1Ui02vmgrigpa2R902dVe7i6AvwHcTSP/8z9AyQAAAABJRU5ErkJggg==",
-              "WhenOpened": "2024-11-23T09:13:32.676Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-23T09:13:32.676Z"
             }
           ]
         }

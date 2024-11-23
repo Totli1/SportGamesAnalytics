@@ -9,9 +9,21 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Component 11.png" />
+    <None Remove="Component 9.png" />
+    <None Remove="Sports Games Analytics.png" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="9.0.0" />
     <PackageReference Include="Npgsql" Version="9.0.1" />
     <PackageReference Include="SharpVectors" Version="1.8.4.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Component 11.png" />
+    <Resource Include="Component 9.png" />
+    <Resource Include="Sports Games Analytics.png" />
   </ItemGroup>
 
 </Project>
